@@ -1,10 +1,31 @@
 # go-libs-playground
 Playground of golang library
 
-# 📔 Structure
+# 📔 STRUCTURE
 
-# 🎲 Submodule
+# 🎲 SUBMODULE
+
 ## Add submodule repository
 <prep>
-    git submodule add https://github.com/alfianvitoanggoro/go-postgres.git go-postgres
+    git submodule add https://github.com/username/repository-name.git repository-name
+</prep>
+
+## Pull submodule repository
+<prep>
+    git submodule update --init --recursive repository-name
+</prep>
+
+## Update submodule repository
+<prep>
+    git submodule update --remote --merge repository-name
+</prep>
+
+## Pull All submodule repository
+<prep>
+    git submodule update --init --recursive
+</prep>
+
+## Update All submodule repository
+<prep>
+    git submodule update --remote --merge
 </prep>
