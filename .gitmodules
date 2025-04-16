@@ -1,0 +1,3 @@
+[submodule "go-postgres"]
+	path = go-postgres
+	url = https://github.com/alfianvitoanggoro/go-postgres.git
